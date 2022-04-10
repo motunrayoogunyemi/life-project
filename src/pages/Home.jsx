@@ -1,12 +1,11 @@
 import React from 'react'
-import { Navbar, Explore, Footer } from "../components"
-import { Celebration, Count, Partnerus, Subscribe, Sliderr, Herocarousel, Mycarousel } from "../containers"
+import { Explore, Footer } from "../components"
+import { Celebration, Count, Partnerus, Subscribe, Sliderr, Mycarousel } from "../containers"
 import "./pages.css"
 
 const Home = () => {
   return (
     <div>
-        {/* <Navbar /> */}
         <Mycarousel />
         <Sliderr />
         <Explore />
