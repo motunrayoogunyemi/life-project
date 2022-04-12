@@ -111,18 +111,18 @@
 }
 @media screen and (max-width: 500px) {
     .car-img{
-        height: 450px;
+        height: 418px;
     }
     /* .main{
         height: 400px;
     } */
     .car-content h1{
         font-size: 33px;
-        line-height: 50px;
+        line-height: 46px;
     }
     .car-content p{
         font-size: 16px;
-        line-height: 25px;
+        line-height: 20px;
     }
     .car-content a{
         font-size: 12px;
