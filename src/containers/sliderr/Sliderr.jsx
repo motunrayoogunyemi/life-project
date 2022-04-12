@@ -6,31 +6,30 @@ import { Sliderbox } from "../../components"
 import discuss9ja from "../../assets/discussn.jpg"
 import njaflavors from "../../assets/naijaf.jpg"
 import children from "../../assets/children.jpg"
-// import LeftArrow from "../../assets/LeftArrow.png"
-// import RightArrow from "../../assets/RightArrow.png"
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+// import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+// import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import "./sliderr.css"
 
 const Sliderr = () => {
-  const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
-    // <img src={LeftArrow} alt="prevArrow" {...props} />
-    <p {...props}><ArrowBackIosIcon /></p>
-  );
+  // const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
+  //   <img src={LeftArrow} alt="prevArrow" {...props} />
+  //   // <p {...props}><ArrowBackIosIcon /></p>
+  // );
 
-  const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
-    // <img src={RightArrow} alt="nextArrow" {...props} />
-    <p {...props}><ArrowForwardIosIcon /></p>
-  );
+  // const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
+  //   <img src={RightArrow} alt="nextArrow" {...props} />
+  //   // <p {...props}><ArrowForwardIosIcon /></p>
+  // );
     const settings = {
       dots: false,
       infinite: false,
       speed: 500,
-      slidesToShow: 2.5,
+      slidesToShow: 2.1,
       slidesToScroll: 1,
       initialSlide: 0,
-      prevArrow: <SlickArrowLeft />,
-    nextArrow: <SlickArrowRight />,
+      arrows: false,
+      prevArrow: false,
+    nextArrow: false,
     };
   return (
     <div className='er__slider'>

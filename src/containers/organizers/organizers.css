@@ -80,6 +80,12 @@
 }
 
 @media screen and (max-width: 500px) {
+    .er__organizers{
+        padding: 0rem 4rem 1rem;
+    }
+    .organizer1, .organizer2, .organizer3{
+        margin-bottom: 2rem;
+    }
     .er__organizers h1{
         font-size: 33px;
         margin-bottom: 2.5rem;

@@ -35,8 +35,11 @@
 }
 
 @media screen and (max-width: 500px) {
+    .er__aboutlife{
+        margin: 4rem 0rem 2rem;
+    }
     .er__aboutlife h2{
-        font-size: 33px;
+        font-size: 30px;
         line-height: 8px;
     }
 }

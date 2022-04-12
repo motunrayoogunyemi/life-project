@@ -66,16 +66,16 @@
 }
 @media screen and (max-width: 500px) {
     .er__eventshero{
-        height: 600px;
+        height: 300px;
     }
     .er__eventshero-inner{
         padding: 4rem 3rem;
     }
     .er__eventshero-inner h1{
         font-size: 30px;
-        line-height: 70px;
+        line-height: 50px;
         width: 55%;
-        margin-top: 8rem;
+        margin-top: 0rem;
     }
 }
 @media screen and (max-width: 400px) {
@@ -83,7 +83,8 @@
         padding: 4rem 2rem;
     }
     .er__eventshero-inner h1{
-        font-size: 25px;
+        font-size: 30px;
         line-height: 50px;
+        /* width: 70%; */
     }
 }

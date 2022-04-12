@@ -5,15 +5,25 @@
     z-index: -1 !important;
     position: absolute !important;
     width:100% !important;
+    /* height: 200px !important; */
     top:0 !important;
 }
 .car-img{
-    width: 100vw;
-    height: 768px;
+    /* width: 100vw; */
+    height: 760px;
     /* background-image: linear-gradient(rgba(38, 38, 38, 0.57), rgba(39, 39, 39, 0.56)) !important; */
     /* opacity: 0.5; */
     /* background-color: rgba(38, 38, 38, 0.57); */
     /* mix-blend-mode: exclusion; */
+}
+/* .Carousel{
+    height: 200px !important;
+} */
+/* .right.carousel-control, .left.carousel-control {
+    display: none;
+} */
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    display: none;
 }
 .car-content{
     display: flex;
@@ -68,9 +78,9 @@
 }
 
 @media screen and (max-width: 1100px) {
-    .car-img{
+    /* .car-img{
         height: 600px;
-    }
+    } */
     .car-content h1{
         font-size: 56px;
         line-height: 74px;
@@ -95,18 +105,44 @@
     .car-content a{
         font-size: 12px;
     }
+    .car-img{
+        height: 600px;
+    }
 }
 @media screen and (max-width: 500px) {
+    .car-img{
+        height: 450px;
+    }
+    /* .main{
+        height: 400px;
+    } */
     .car-content h1{
-        font-size: 35px;
+        font-size: 33px;
         line-height: 50px;
     }
     .car-content p{
-        font-size: 17px;
+        font-size: 16px;
         line-height: 25px;
     }
     .car-content a{
         font-size: 12px;
         padding: 8px 29px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .car-img{
+        height: 350px;
+    }
+    .car-content h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .car-content p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .car-content a{
+        font-size: 10px;
+        padding: 7px 22px;
     }
 }

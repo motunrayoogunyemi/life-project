@@ -92,14 +92,16 @@
     }
     .life__celebration-box-content h2{
         font-size: 27px;
-        line-height: 43px;
+        line-height: 33px;
     }
     .life__celebration-box-content p{
         width: 93%;
         font-size: 18px;
+        line-height: 28px;
     }
     .life__celebration-box-content h3{
         font-size: 22px;
+        margin-top: 0rem;
     }
 }
 
@@ -112,11 +114,12 @@
     }
     .life__celebration-box-content h2{
         font-size: 22px;
-        line-height: 38px;
+        line-height: 29px;
     }
     .life__celebration-box-content p{
         width: 96%;
         font-size: 17px;
+        line-height: 25px;
     }
     .life__celebration-box-content h3{
         font-size: 19px;

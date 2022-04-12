@@ -10,7 +10,7 @@ const Mycarousel = () => {
   return (
     <div className='life__carousel'>
     <Navbar />
-        <Carousel className='boot-carousel'>
+        <Carousel interval={10000} className='boot-carousel'>
             <Carousel.Item className='main'>
                 <div className='bac-img'>
                     <img
